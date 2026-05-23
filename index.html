@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy 2 Months, My Princess Amora 🩷</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- PAGE 1: LANDING -->
+<div class="page active" id="page1">
+  <div class="floating-icons" id="floatingIcons"></div>
+  <div class="center-content">
+    <div class="big-heart">🩷</div>
+    <div class="landing-title">Hey there, my princess Amora~<br/>I made something for you 🐻</div>
+    <button class="click-btn" onclick="goTo('page2')">Click here baby ko 💕</button>
+  </div>
+</div>
+
+<!-- PAGE 2: MINIGAME -->
+<div class="page" id="page2">
+  <div class="game-header">
+    <h2>🩷 Catch the Hearts! 🩷</h2>
+    <p>Tap the falling hearts & treats before they disappear!</p>
+  </div>
+  <div class="game-score" id="scoreDisplay">Score: 0 💕</div>
+  <div class="game-area" id="gameArea"></div>
+  <div class="bored-btn-wrap">
+    <p class="bored-label">click here if your bored playing na HAHAHAHA 😭</p>
+    <button class="bored-btn" onclick="goTo('page3')">👇 okay fine, take me to the message</button>
+  </div>
+</div>
+
+<!-- PAGE 3: MESSAGE -->
+<div class="page" id="page3">
+  <div class="hearts-bg" id="heartsBg"></div>
+  <div class="msg-container">
+    <div class="msg-badge">💌 Happy 2 Months 💌</div>
+    <h1 class="msg-title">For my princess Amora,<br/>my baby Reine 🩷</h1>
+    <div class="deco-row">🐻 🍬 🩷 🐻 🍬</div>
+    <img class="couple-photo" src="pic.jpeg" alt="Us 🩷" />
+    <div class="msg-card">
+      <p class="msg-text">
+        Hello, my baby. 🩷<br/><br/>
+        This is me, your boyfriend, <strong>kaaway, kalaro, ragebaiter, utusan</strong>, and of course, your lover. 🐻<br/><br/>
+        <strong>Happy happy 2 months to us, my baby!!</strong> 🎉🩷<br/><br/>
+        Thank you so, so much for always being patient with me, always taking care of me, and always reminding me to do things like my schoolwork, taking care of myself, and being responsible. 🍬<br/><br/>
+        I just want to say that <strong>you're the best girl I've ever been with.</strong> I will always treasure you, my baby. I will never ever cheat on you, baby, oki? 🩷<br/><br/>
+        Always remember that <strong>I'm always here by your side, baby, oki?</strong> 🐻<br/><br/>
+        I love you so, so, so, so much, my baby koooo. And I'm always here to protect you and listen to your problems, oki? 🍬<br/><br/>
+        <strong>Love you so, so much, baby, and happy 2 months to us, baby kooo!!</strong> 🩷<br/>
+        Mwa mwa mwa mwa mmmwa 😘💕
+      </p>
+    </div>
+    <button class="next-btn" onclick="goTo('page4')">That's not all baby 🩷 →</button>
+  </div>
+</div>
+
+<!-- PAGE 4: FINAL -->
+<div class="page" id="page4">
+  <div class="hearts-bg" id="heartsBg4"></div>
+  <div class="final-container">
+    <div class="confetti-row">
+      <span>🩷</span><span>🐻</span><span>🍬</span><span>🩷</span><span>🐻</span>
+    </div>
+    <h1 class="final-title">That's all baby,<br/>I love you so so so much 🩷</h1>
+    <p class="final-sub">
+      You are my favorite person in the whole world. 🍬<br/>
+      My baby, my princess Amora, my everything. 🐻<br/>
+      Happy 2 months and forever more! 🩷
+    </p>
+    <div class="final-hearts">
+      <span>🩷</span><span>🩷</span><span>🩷</span>
+    </div>
+    <p class="signature">— your maasim na boyfriend HAHAH 🐻💕</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
